@@ -12,7 +12,9 @@ public class MasterTest {
 		Motor.A.setSpeed(20);
 		Motor.B.setSpeed(20);
 		Motor.A.rotate(190, true);
+
 		Motor.B.rotate(190);
+
 
 		BTCom.stopConnection();
 	}

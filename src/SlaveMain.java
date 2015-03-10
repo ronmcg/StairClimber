@@ -14,7 +14,13 @@ public class SlaveMain {
 		Motor.A.setSpeed(20);
 		Motor.B.setSpeed(20);
 		Motor.A.rotate(-190, true);
+
 		Motor.B.rotate(-190);
+
+		
+		Motor.C.setSpeed(20);
+		Motor.C.rotate(100);
+		
 		BTCom.stopConnection();
 	}
 
