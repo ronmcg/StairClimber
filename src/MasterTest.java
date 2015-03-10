@@ -3,7 +3,6 @@ import lejos.nxt.*;
 public class MasterTest {
 
 	public static void main(String[] args) {
-		
 		String slaveName = "NXT";
 		String slaveMethod ="runme";
 		
